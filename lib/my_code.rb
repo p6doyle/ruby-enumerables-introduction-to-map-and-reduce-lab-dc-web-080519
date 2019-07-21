@@ -25,27 +25,10 @@ end
 def reduce_to_all_true(source_array)
     if source_array.each do |item| == false
       puts false
+    else
+      puts true
     end
-    return true
-    
-    x = false 
 
-
-### check truthiness of x:
-
-if x
-  puts "this wont print because x is falsey"
-end
-
-
-
-y = 5
-
-### check truthiness of y:
-
-if y 
-  puts "this will print because y (5) is truthy"
-end
 end
 
 
