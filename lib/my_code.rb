@@ -40,3 +40,6 @@ def reduce_to_any_true(source_array)
   end
   false
 end
+
+reduce_to_any_true returns false when no truthy value is present
+    reduces correctly (FAILED - 1)
