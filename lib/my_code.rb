@@ -24,9 +24,12 @@ end
 
 def reduce_to_all_true(source_array)
   source_array.each do |item|
+    #loops through each item in source_array
     return false if !item 
+    #if an item is false/falsey, return false
   end
   true
+  #if an item is true/truthy, return true
 end
 
 
