@@ -24,7 +24,7 @@ end
 
 def reduce_to_all_true(source_array)
     if source_array.each do |item| == false
-      return false
+      puts false
     end
     return true
     
